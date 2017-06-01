@@ -1,0 +1,16 @@
+while (1) {
+    cout << "[0] Quit" << endl;
+    int flag;
+    cin >> flag;
+    while (flag != 0) {
+        cout << "Sorry, please try it again" << endl;
+        cin >> flag;
+    }
+    if (flag == 0) break;
+    switch (flag) {
+        case 1:{
+
+            break;
+        }
+    }
+}
